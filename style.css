@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    transition: ease-in-out .2s;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+
+    background-image: linear-gradient(to top , rgba(172, 255, 47, 0.164) 1px , transparent 1px)
+    ,linear-gradient(to right , rgba(175, 255, 47, 0.178) 1px , transparent 1px);
+    background-size: 50px 50px;
+    color:white;
+    min-height: 100vh;
+  font-family: "Orbitron", sans-serif;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+
+}
+.hero{
+       background-color: black;
+
+    background-image: linear-gradient(to top , rgba(172, 255, 47, 0.258) 1px , transparent 1px)
+    ,linear-gradient(to right , rgba(172, 255, 47, 0.25) 1px , transparent 1px);
+    background-size: 50px 50px;
+    height: 30%;
+    padding: 30px;
+    width: 100%;
+    text-transform: capitalize;
+    text-align:center ;
+
+}
+
+.hero h1{
+   color: greenyellow;
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+ font-weight: bold;
+  font-style: normal;
+}
+.todo-app
+{
+
+    width: 700px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+input{
+    background-color: transparent;
+    padding: 10px;
+    border: transparent;
+color: white;
+width: 90%;
+outline: transparent;
+
+}
+input::placeholder{
+
+    outline: transparent;
+}
+#add-button{
+    background-color: greenyellow;
+    outline: none;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    width: 70px;
+
+}
+.delete-icon{
+    border: transparent;
+
+    text-align: right;
+ 
+}
+.form-wrapper{
+    width:100%;
+display: flex;
+padding: 10px;
+    align-items: center;
+}
+
+
+form{
+    border: solid 1px greenyellow;
+    border-radius: 10px;
+    background-color:black;
+    border-right: none;
+    box-shadow: 0 0 35rem  greenyellow;
+    width: 100%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+    
+
+}
+.tasks{
+    margin-top: 50px;
+    
+    padding: 10px;width: 100%;
+}
+.task{
+    text-transform: capitalize;
+        box-shadow: 0 0 5px rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 100%;background-color: black;
+    padding: 10px;
+    margin-top: 10px;
+    border: solid 1px greenyellow;
+    border-radius: 10px;
+}
+.task h3{
+    text-align: left;
+;
+    width: 80%;
+ 
+   
+
+ 
+}
+.text-fade{
+text-decoration-line: line-through;
+
+    color: rgb(63, 61, 75);
+}
+i{cursor: pointer;
+    text-decoration: none 
+    !important;
+    margin-right: 5px;
+  
+    color: rgb(160, 255, 96);
+    border-radius: 50%;
+    border: solid 2px greenyellow;
+}
+
+.complete-task{
+    background-color: greenyellow;
+    color: black;
+}
+
+@media (min-width:325px) and (max-width:676px) {
+    body{
+        background-image: none;
+      
+    }
+ 
+    .hero{
+        height: 150px;
+    }
+    .todo-app{
+        width: 100%;
+    }
+    .form-wrapper{
+        width: 100%;
+    }
+}
