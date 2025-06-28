@@ -7,7 +7,7 @@
 
 body{
     background-color: black;
-
+position: relative;
     background-image: linear-gradient(to top , rgba(172, 255, 47, 0.164) 1px , transparent 1px)
     ,linear-gradient(to right , rgba(175, 255, 47, 0.178) 1px , transparent 1px);
     background-size: 50px 50px;
@@ -163,4 +163,15 @@ i{cursor: pointer;
     .form-wrapper{
         width: 100%;
     }
+}
+
+
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    bottom: 0;
+    padding: 30px 0px;
+    text-align: center;
 }
