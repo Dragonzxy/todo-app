@@ -134,6 +134,7 @@ text-decoration-line: line-through;
     color: rgb(63, 61, 75);
 }
 i{cursor: pointer;
+  padding:10px;
     text-decoration: none 
     !important;
     margin-right: 5px;
